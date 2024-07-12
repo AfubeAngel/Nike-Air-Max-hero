@@ -32,7 +32,7 @@ You can view a live Githib pages-demo of the project [here](https://afubeangel.g
 # Technologies Used
 1. HTML5
 2. CSS3
-3. SCSS/SASS
+3. [SCSS/SASS](https://sass-lang.com/guide/)
 
 
 # Installation
