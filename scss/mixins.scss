@@ -1,0 +1,31 @@
+@mixin flex-center($direction: row, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+  }
+  
+  @mixin background-circle1($top, $left, $size, $url) {
+    content: "";
+    position: absolute;
+    top: $top; 
+    left: $left; 
+    width: $size; 
+    height: $size; 
+    background: url($url) no-repeat center/contain;
+    border-radius: 50%;
+    z-index: -1; 
+    filter: blur(130px);
+  }
+  
+  @mixin background-circle2($top, $right, $size, $url){
+        content: "";
+        position: absolute;
+        top: $top;
+        right: $right;
+        width: $size;
+        height: $size;
+        background: url($url) no-repeat center/contain;
+        border-radius: 50%;
+        z-index: -1; 
+  }
