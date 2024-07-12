@@ -1,6 +1,6 @@
 # Overview
 
-This project is a simple hero-page for a Nike product showcasing the use of **SCSS** concepts to create a clean and efficient design. 
+This project is a simple hero page for a Nike product showcasing the use of **SCSS/SASS** concepts to create a clean and efficient design. 
 The page includes navigation, a main section with product details, and a bottom section with additional products.
 
 
@@ -23,15 +23,16 @@ The page includes navigation, a main section with product details, and a bottom 
 
 
 # Demo
-You can view a live Githib pages-demo of the project [here](https://afubeangel.github.io/me-and-my-tech-goals/).
+You can view a live Githib pages-demo of the project [here](https://afubeangel.github.io/Nike-Air-Max-hero/).
 
 ### Landing Page
-![project-DesktopImage](https://github.com/AfubeAngel/me-and-my-tech-goals/assets/62173614/0007a315-69f3-48b5-a418-6a3d55c7fc06)
+![project-DesktopImage](https://github.com/user-attachments/assets/9c248406-bd98-41fb-bdfe-e671f134cdc5)
 
 
 # Technologies Used
 1. HTML5
-2. SCSS
+2. CSS3
+3. SCSS/SASS
 
 
 # Installation
@@ -40,41 +41,63 @@ You can view a live Githib pages-demo of the project [here](https://afubeangel.g
 
 ```bash
 Copy code
-git clone https://github.com/AfubeAngel/me-and-my-tech-goals
+git clone https://github.com/AfubeAngel/Nike-Air-Max-hero
 ```
 
 ## Navigate to the project directory:
 
 ```bash
 Copy code
-cd me-and-my-tech-goals
+cd Nike-Air-Max-Hero
 ```
 
-### Open index.html (Go live) in your browser to view the webpage.
+## Install or set up SCSS 
+Before using Sass, you need to set it up on your project. Go [here](https://sass-lang.com/install/) to learn how to set everything up.
+
+#### Open index.html (Go live) to view the webpage in your browser.
 
 
 # Usage
-- Navigate through the website to explore my tech goals.
-- Check out the links to useful resources and tools.
-- Observe the dynamic display of current UTC time and day of the week.
 - To customize the content, edit the index.html file in the root directory.
-- To modify styles, edit the CSS stylesheet or the javascript accordingly.
+- To modify styles, edit the various SCSS files accordingly.
 - Add or update images in the images directory.
+
+
+# SCSS Concepts 
+
+**Preprocessing** - The SCSS files are preprocessed into CSS to make the styling more maintainable and efficient.
+
+**Variables** - Variables are used to store colors, font stacks, and other values for reuse throughout the stylesheets.
+
+**Nesting** - Nesting is used to reflect the HTML structure, making the SCSS more readable and easier to maintain.
+
+**Partials** - Partials are used to split the SCSS code into smaller, manageable files.
+
+**Modules** - The project uses modular SCSS files to separate concerns and improve maintainability.
+
+**Mixins** - Mixins are used to avoid repetition and keep the code DRY (Don't Repeat Yourself).
+
+**Inheritance** - Inheritance is used to share common styles between different selectors.
+
 
 
 # Project Structure
 
-me-and-my-tech-goals/
+Nike-Air-Max-Hero/
 
-├── images/
+├── assets/
 
   ├── ... (all images)
 
 ├── index.html
 
-├── style.css
+├── css
 
-├── main.js
+  ├── ... (all css files and mapped scss files)
+
+├── scss
+
+  ├── ... (all scss files)
 
 ├── README.md
 
