@@ -14,12 +14,12 @@ body {
 
   // first Background circles
   &::before {
-    @include background-circle1(447px, 384px, 300px, 'assets/Ellipse 5circle1.svg');
+    @include background-circle1(447px, 384px, 300px, '../assets/Ellipse 5circle1.svg');
   }
 
   //  second background circle
   &::after {
-    @include background-circle2(197px, 103px, 500px, 'assets/Ellipse\ 6circle2.svg');
+    @include background-circle2(197px, 103px, 500px, '../assets/Ellipse\ 6circle2.svg');
   }
 
  background blur
@@ -35,7 +35,7 @@ body {
       transform: translate(-50%, -50%);
       width: 900px; 
       height: 600px; 
-      background: url('assets/NIKENIKE-backtext.svg') no-repeat center/contain; 
+      background: url('../assets/NIKENIKE-backtext.svg') no-repeat center/contain; 
       z-index: -1;
   }
 }

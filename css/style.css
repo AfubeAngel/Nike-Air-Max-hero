@@ -202,7 +202,7 @@ body::before {
   left: 384px;
   width: 300px;
   height: 300px;
-  background: url("assets/Ellipse 5circle1.svg") no-repeat center/contain;
+  background: url("../assets/Ellipse 5circle1.svg") no-repeat center/contain;
   border-radius: 50%;
   z-index: -1;
   filter: blur(130px);
@@ -214,7 +214,7 @@ body::after {
   right: 103px;
   width: 500px;
   height: 500px;
-  background: url("assets/Ellipse 6circle2.svg") no-repeat center/contain;
+  background: url("../assets/Ellipse 6circle2.svg") no-repeat center/contain;
   border-radius: 50%;
   z-index: -1;
 }
@@ -229,7 +229,7 @@ body .nike {
   transform: translate(-50%, -50%);
   width: 900px;
   height: 600px;
-  background: url("assets/NIKENIKE-backtext.svg") no-repeat center/contain;
+  background: url("../assets/NIKENIKE-backtext.svg") no-repeat center/contain;
   z-index: -1;
 }
 
